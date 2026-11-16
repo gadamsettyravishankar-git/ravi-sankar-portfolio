@@ -1,6 +1,7 @@
 import { ArrowDownRight, ArrowUpRight, Cpu } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useState } from 'react';
+import heroNeuralImg from '../assets/images/hero_ai_neural_architecture_1794800372735.jpg';
 import { GITHUB_PROFILE_URL } from '../data/portfolioData';
 import { ProfilePlaceholders } from '../types/portfolio';
 
@@ -92,7 +93,7 @@ export default function HeroSection({
             <div className="glass-surface relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-2xl">
               {!imageError ? (
                 <img
-                  src="/src/assets/images/hero_ai_neural_architecture_1794800372735.jpg"
+                  src={heroNeuralImg}
                   alt="Abstract dark navy glass neural architecture illuminated by electric blue and purple light"
                   referrerPolicy="no-referrer"
                   onError={() => setImageError(true)}

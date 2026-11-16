@@ -1,3 +1,5 @@
+import gradeCalcImg from '../assets/images/project_grade_calculator_1794800372683.jpg';
+import pythonCalcImg from '../assets/images/project_python_calculator_1794800373768.jpg';
 import {
   CertificateSlot,
   MilestoneItem,
@@ -83,7 +85,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     categoryLabel: 'Python · GenAI Study · CLI Logic',
     description:
       'A foundational Python learning project built while practicing conditional branching, arithmetic averaging, and structured prompt-assisted code review with Generative AI.',
-    imagePath: '/src/assets/images/project_grade_calculator_1794800372683.jpg',
+    imagePath: gradeCalcImg,
     imageAlt:
       'Isometric glass cube visualization representing student grade calculation logic',
     highlights: [
@@ -117,7 +119,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     categoryLabel: 'Python · CLI Application · In Progress',
     description:
       'An ongoing first-year Python practice project focused on modular arithmetic functions, error-safe user input loops, and clean division-by-zero handling.',
-    imagePath: '/src/assets/images/project_python_calculator_1794800373768.jpg',
+    imagePath: pythonCalcImg,
     imageAlt:
       'Translucent geometric glass blocks representing arithmetic operations in Python',
     highlights: [
